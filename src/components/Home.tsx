@@ -1,7 +1,15 @@
-import React from "react";
+import BoatVideo from "./BoatVideo";
+import HeroText from "./HeroText";
+import MapImages from "./MapImages";
 
-const Home = () => {
-  return <div>Home</div>;
-};
+function Home() {
+  return (
+    <>
+      <HeroText />
+      <MapImages />
+      <BoatVideo />
+    </>
+  );
+}
 
 export default Home;
